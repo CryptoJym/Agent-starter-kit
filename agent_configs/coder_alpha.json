@@ -3,5 +3,9 @@
   "branch_prefix": "feat/${ISSUE_ID}",
   "llm": "o3",
   "role": "Implement one task at a time.  Steps: git_pull → edit ≤3 files → unit tests → git_add_commit → git_push",
-  "post_push_hook": "open_pull_request"
+  "post_push_hook": "open_pull_request",
+  "memory": {
+    "isolation_level": "agent+issue",
+    "access_scope": ["repo", "agent", "issue"]
+  }
 }

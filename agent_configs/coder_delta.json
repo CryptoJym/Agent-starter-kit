@@ -1,5 +1,5 @@
 {
-  "name": "Coder-Gamma",
+  "name": "Coder-Delta",
   "branch_prefix": "feat/${ISSUE_ID}",
   "llm": "o3",
   "role": "Implement one task at a time.  Steps: git_pull → edit ≤3 files → unit tests → git_add_commit → git_push",
